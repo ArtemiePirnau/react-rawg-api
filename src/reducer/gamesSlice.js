@@ -6,7 +6,7 @@ const gamesSlice = createSlice({
     },
     reducers: {
         setAllGames: (state, action) => {
-            state.gamesList = action.payload.data;
+            state.gamesList = action.payload;
         }
     }
 })

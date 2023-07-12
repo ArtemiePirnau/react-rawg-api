@@ -1,4 +1,4 @@
-import GamesPage from "../games-page/games-page.jsx";
+import { GamesPage } from "../games-page/games-page.jsx";
 
 export const MainPage = () => {
   return (
